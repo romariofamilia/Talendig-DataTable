@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Datos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="input_container">
+            <form action="">
+                <input id="nombre" type="text" placeholder="Nombre">
+                <input id="apellido" type="text" placeholder="Apellido">
+                <input id="curso" type="text" placeholder="Curso">
+                <input id="nota" type="number" placeholder="Nota">
+            </form>
+            <div class="button_container">
+                <button id="add">Agregar</button>
+                <button id="clear">Limpiar</button>
+            </div>
+            
+        </div>
+        <div class="table_container">
+            <table border="01">
+                <thead>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Curso</th>
+                    <th>Nota</th>
+                    <th colspan="2">Acciones</th>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
